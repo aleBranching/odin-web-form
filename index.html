@@ -5,7 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="sideImage">
+      <!-- <img src="assets/till-daling-jzjzN6DkUaU-unsplash.jpg" alt="" /> -->
+    </div>
+    <div class="formContainer">
+      <div class="explanation">
+        <h2>
+          This is a demo registration page! You know you need something like
+          this in your life to help you realize your deepest dreams. Sign up now
+          to get started.
+        </h2>
+        <h2>You know you want to.</h2>
+      </div>
+      <form action="">
+        <legend>Let's do this</legend>
+
+        <div class="inputField">
+          <div>
+            <label for="firstName">First Name</label
+            ><input type="text" name="firstName" id="firstName" />
+          </div>
+          <div>
+            <label for="lastName">Last Name</label
+            ><input type="text" name="lastName" id="lastName" />
+          </div>
+          <div>
+            <label for="email">Email</label
+            ><input type="email" name="email" id="email" required />
+          </div>
+          <div>
+            <label for="telephone">Phone Number</label
+            ><input type="tel" name="telephone" id="telephone" />
+          </div>
+          <div>
+            <label for="password">Password</label
+            ><input type="password" name="password" id="email" required />
+          </div>
+          <div>
+            <label for="passwordConfirm">Confirm Password</label
+            ><input type="password" id="passwordConfirm" required />
+          </div>
+        </div>
+        <button type="submit">Create Account</button>
+        <h4>Already have an account? <a href="">Log in</a></h4>
+      </form>
+    </div>
+  </body>
 </html>

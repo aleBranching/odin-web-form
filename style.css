@@ -1,0 +1,29 @@
+:root {
+  --form-width: 70vw;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+heading {
+  font-family: "Red Hat Mono", monospace, sans-serif, "Times New Roman", Times,
+    serif;
+}
+body {
+  display: flex;
+  flex-direction: row;
+}
+
+.sideImage {
+  background-image: url("assets/greg-rakozy-oMpAz-DN-9I-unsplash.jpg");
+  width: 30vw;
+  background-color: red;
+  background-position: center;
+  background-size: 500%;
+  height: 100vh;
+}
+
+.formContainer {
+  width: var(--form-width);
+}
